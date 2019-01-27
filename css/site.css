@@ -1,0 +1,272 @@
+html,body,.header 
+{
+	margin: 0px;
+	background-color:#ffe9ec ;
+}
+.header
+{
+	width: 100%;
+	background-color:  rgba(75,56,50,0.8);
+	display: flex;
+    height: auto;
+    position: fixed;
+}
+.header img
+{
+	display: block;
+    margin-left: 5px;
+    margin-right: auto;
+    padding-top: 5px;
+    width: 50px;
+    height: 30px;
+    padding-bottom: 15px;
+}
+.scroll
+{
+	padding:10px;
+    background-color: yellow;
+	text-shadow:rgb(255,23,20) ;
+	color: rgb(255,23,20);
+	font-size: 30px;
+}
+h2
+{
+	text-align:right;
+}
+.label
+{
+	font-family: all;
+	font-size: 20px;
+}
+.name
+{
+	font-weight: bold;
+    color: rgb(255,246,143);
+    font-family:Arial /*Helvetica, sans-serif*/;
+	font-size: 20px;
+	text-align:  right;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.show
+ {
+	/*padding: 28px;*/
+}
+
+.show img/*video*//*img also applied here*/
+{
+	/*width: 100%;
+	height: 10%;*/
+	width: 100%;
+	/*height: 30vh;*/
+	margin: auto;
+	/*padding-bottom: 20px;*/
+}
+/*.type{
+	display: flex;
+	background-color:rgba(0,0,0,0.2); 
+}*/
+
+.card 
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-body
+ {
+	max-width: 300px;
+	text-align-last: center;
+	margin-top:-55px;
+	cursor: crosshair;
+}
+
+#a
+{
+   font-weight: bold;
+   padding-bottom: 10px;
+   text-align: left;
+   margin-left: 50px;
+   margin-right: auto;
+}
+
+#b
+{
+	max-width: 300px;
+	padding: 28px;
+	margin: auto;
+	box-shadow: 0px 0px 10px gray;
+	border-radius: 0px;
+	font-style:italic;
+}
+#c
+{
+	max-width: 300px;
+	padding: 28px;
+	margin: auto;
+	box-shadow: 0px 0px 10px gray;
+	border-radius: 0px;
+	font-style:italic;
+
+}
+#d
+{
+	width: 250px;
+	max-width: 300px;
+	padding: 40px;
+	margin: auto;
+	box-shadow: 0px 0px 10px gray;
+	border-radius: 0px;
+	font-style:italic;
+
+}
+#e
+{
+	width: 250px;
+	max-width: 300px;
+	padding: 40px;
+	margin: auto;
+	box-shadow: 0px 0px 10px gray;
+	border-radius: 0px;
+	font-style:italic;
+
+}
+#f
+{
+	width: 250px;
+	max-width: 300px;
+	padding: 40px;
+	margin: auto;
+	box-shadow: 0px 0px 10px gray;
+	border-radius: 0px;
+	font-style:italic;
+
+}
+#g
+{
+	width: 250px;
+	max-width: 300px;
+	padding: 40px;
+	margin: auto;
+	box-shadow: 0px 0px 10px gray;
+	border-radius: 0px;
+	font-style:italic;
+
+}
+@media screen and (min-width:450px)
+{
+   .card-body
+   {
+  		width: 50%;
+   }
+   .show video
+   {
+ 	padding-top: 0px;
+   	padding-bottom: 0px;
+   }
+}
+	@media screen and (min-width:50px)
+{
+	.contact pre
+	{
+		font-size: 15px;
+	}
+}
+/*@media screen and (min-width:800px)
+{
+ .card-body{
+		width: 50%;
+	}
+	.show video{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.contact pre
+	{
+		font-size: 30px;
+	}
+}*/
+@media screen and (min-width:700px)
+{
+.card-body
+    {
+		width:700px;
+ 		margin-left:auto;
+ 		margin-right:auto;
+	}
+}
+hr
+{
+	border: 10px solid gray;
+	border-radius: 10px;
+}
+.contact pre
+{
+	text-align: center;
+	color: brown
+}
+pre
+{
+	font-size: 20px;
+}
+.conimg
+{
+	width: 30px;
+	height: 30px;
+}
+.card-body
+{
+    background-color: #ffe9ec;
+    transition: transform .2s; /* Animation */
+    margin:auto;
+}
+
+.card-body:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.name
+{
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: name  1s ease-in-out infinite alternate;
+  -moz-animation: name 1s ease-in-out infinite alternate;
+  animation: name  1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes name 
+{
+  from
+   {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+   }
+  to 
+  {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.scroll
+{
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  -webkit-animation: scroll  1s ease-in-out infinite alternate;
+  -moz-animation: scroll 1s ease-in-out infinite alternate;
+  animation: scroll  1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes scroll
+{
+  from 
+  {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to 
+  {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
